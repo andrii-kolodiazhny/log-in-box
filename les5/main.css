@@ -1,0 +1,64 @@
+.login-form {
+    width: 305px;
+    height: 360px;
+    border: 2px solid salmon;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login {
+    border-radius: 10px;
+    background-image: url(./lock1.svg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px;
+    background: linear-gradient(312.9deg rgba(255, 255, 255, 0.3)4.49%, rgba(233, 240, 247, 0.3)95.45%), #e9f0f7;
+    box-shadow: 4px 4px 16px rgba(138, 155, 189, 0.48), -5px -5px 18px #fff;
+
+}
+
+#password {
+    border-radius: 10px;
+    background-size: 10%;
+    background-position: center;
+    border: 1px;
+
+    box-shadow: 4px 4px 16px rgba(138, 155, 189, 0.48), -5px -5px 18px #fff;
+
+}
+
+#message {
+    border-radius: 10px;
+    background-size: 10%;
+    border: 1px;
+    background: linear-gradient(312.9deg rgba(255, 255, 255, 0.3)4.49%, rgba(233, 240, 247, 0.3)95.45%), #e9f0f7;
+    box-shadow: 4px 4px 16px rgba(138, 155, 189, 0.48), -5px -5px 18px #fff;
+}
+
+.form-row {
+    margin: 10px;
+    text-align: center;
+}
+
+#send {
+    width: 30%;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+    background-size: 10%;
+    background-position: center;
+    border: 1px;
+
+
+}
+
+
+.button:hover {
+    box-shadow: 5px 5px 15px 5px rgb(222, 219, 232);
+}
